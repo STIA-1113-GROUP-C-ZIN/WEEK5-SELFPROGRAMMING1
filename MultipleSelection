@@ -1,0 +1,31 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class MultipleSelection {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		int x;
+		System.out.println("Enter the a number:");
+		x= scan.nextInt();
+
+		 if (x>=1)
+		 {
+			 System.out.println("The number you enter is :"+x);
+			 System.out.println("You enter the positive number");
+		 }
+		 else if (x<0)
+		 {
+			 System.out.println("The number you enter is :"+x);
+			 System.out.println("You enter the negative number");
+		 }
+		 else
+		 {
+			 System.out.println("The number you enter is :"+x);
+			 System.out.println("You enter the zero number");
+		 }
+	}
+
+}
